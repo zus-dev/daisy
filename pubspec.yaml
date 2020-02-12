@@ -1,0 +1,24 @@
+name: daisy
+description: ZVM UI implementation.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  path_provider: ^1.5.1
+  http: ^0.12.0+3
+  provider: ^4.0.1
+  zvm:
+    path: ../zvm
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
